@@ -13,10 +13,10 @@ pip install requests  ([Github](https://github.com/requests/requests))
 pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
 ## アプリケーションの登録
-https://dev.fitbit.com/apps
+https://dev.fitbit.com/apps  
 MANAGE MY APP -> Register a new app  
 入力は適当で良いかと思います。  
-![](/image/regist_myapp.png | width=10)
+<img src="/image/regist_myapp.png" width="280">
 
 ## クライアントID、シークレットの取得(※)  
 
