@@ -15,8 +15,8 @@ pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oa
 ## アプリケーションの登録
 https://dev.fitbit.com/apps
 MANAGE MY APP -> Register a new app  
-入力は適当で良いかと思います。
-![Alt text](/image/regist_myapp.png?raw=true "Register a new app")
+入力は適当で良いかと思います。  
+![](/image/regist_myapp.png | width=10)
 
 ## クライアントID、シークレットの取得(※)  
 
