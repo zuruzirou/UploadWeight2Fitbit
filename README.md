@@ -3,25 +3,22 @@ fitbitへ体重をアップロードする
 
 ## 事前準備
 ### python
-  3系なら大丈夫だと思いますが、今回は以下を使用。
-  python3.7.2 windows 64bit版  
-  https://www.python.org/downloads/release/python-372/
+最新を使用。python3.7.2 windows 64bit版。  
+https://www.python.org/downloads/release/python-372/
 
 ### python plugin
-- python-fitbit。localにcloneしておく。  
-https://github.com/orcasgit/python-fitbit
+python-fitbitをlocalにclone. ([Github](https://github.com/orcasgit/python-fitbit))  
+pip install oauthlib  ([Github](https://github.com/oauthlib/oauthlib))  
+pip install requests  ([Github](https://github.com/requests/requests))  
+pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
-- [oauthlib](https://github.com/oauthlib/oauthlib)  
-pip install oauthlib  
+## アプリケーションの登録
+https://dev.fitbit.com/apps
+MANAGE MY APP -> Register a new app  
+入力は適当で良いかと思います。
+![Alt text](/image/regist_myapp.png?raw=true "Register a new app")
 
-- [requests](https://github.com/requests/requests)  
-pip install requests  
-
-- [requests_oauthlib](https://github.com/requests/requests-oauthlib)  
-pip install requests_oauthlib
-
-
-- クライアントID、シークレットの取得(※)  
+## クライアントID、シークレットの取得(※)  
 
 
 
