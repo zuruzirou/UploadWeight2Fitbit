@@ -12,7 +12,7 @@ pip install oauthlib  ([Github](https://github.com/oauthlib/oauthlib))
 pip install requests  ([Github](https://github.com/requests/requests))  
 pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
-## アプリケーションの登録
+### アプリケーションの登録
 https://dev.fitbit.com/apps  
 MANAGE MY APP -> Register a new app  
 入力は適当で良いかと思います。  
