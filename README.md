@@ -13,7 +13,7 @@ pip install requests  ([Github](https://github.com/requests/requests))
 pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
 ### web server
-redirect url用にweb serverを起動しておく.なくても必要な情報は取れる気もするが、一応。  
+redirect url用.なくても必要な情報は取れるかも？  
 serverは何でも良いが、インストール済みのVisual Studio Codeのextensionを使用した。  
 VSCのExtensionから"Live Server"を検索＆install.  
 右下に"Go Live"が表示されるようになるので、click。default port 5500で起動する。
