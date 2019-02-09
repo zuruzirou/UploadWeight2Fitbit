@@ -12,11 +12,33 @@ pip install oauthlib  ([Github](https://github.com/oauthlib/oauthlib))
 pip install requests  ([Github](https://github.com/requests/requests))  
 pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
+### web server
+redirect url用にweb serverを起動しておく.なくても必要な情報は取れる気もするが、一応。  
+serverは何でも良いが、インストール済みのVisual Studio Codeのextensionを使用した。  
+VSCのExtensionから"Live Server"を検索＆install.  
+右下に"Go Live"が表示されるようになるので、click。default port 5500で起動する。
+
+## 接続確認
+fitbitから自身のデータを取得するところまで確認する。
+
 ### アプリケーションの登録
 https://dev.fitbit.com/apps  
-MANAGE MY APP -> Register a new app  
-入力は適当で良いかと思います。  
-<img src="/image/regist_myapp.png" width="280">
+"REGISTER AN APP"タブ
+
+確認だけなので、入力は適当に。  
+
+name | value
+--- | ---
+Application Name | test001
+Description | test001 description.
+Application Website | http://127.0.0.1:5500/
+Organization | myapp
+Organization Website | http://127.0.0.1:5500/
+Terms Of Service Url | http://127.0.0.1:5500/
+Privacy Policy Url | http://127.0.0.1:5500/
+OAuth 2.0 Application Type | Personal
+Callback URL | http://127.0.0.1:5500/
+Default Access Type | Read & Write
 
 ## クライアントID、シークレットの取得(※)  
 
