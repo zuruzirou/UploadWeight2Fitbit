@@ -7,16 +7,16 @@ fitbitへ体重をアップロードする
 https://www.python.org/downloads/release/python-372/
 
 ### python plugin
-python-fitbitをlocalにclone. ([Github](https://github.com/orcasgit/python-fitbit))  
-pip install oauthlib  ([Github](https://github.com/oauthlib/oauthlib))  
-pip install requests  ([Github](https://github.com/requests/requests))  
-pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
+- python-fitbitをlocalにclone. ([Github](https://github.com/orcasgit/python-fitbit))  
+- pip install oauthlib  ([Github](https://github.com/oauthlib/oauthlib))  
+- pip install requests  ([Github](https://github.com/requests/requests))  
+- pip install requests_oauthlib  ([Github](https://github.com/requests/requests-oauthlib))  
 
 ### web server
-redirect url用.なくても必要な情報は取れるかも？  
-serverは何でも良いが、インストール済みのVisual Studio Codeのextensionを使用した。  
-VSCのExtensionから"Live Server"を検索＆install.  
-右下に"Go Live"が表示されるようになるので、click。default port 5500で起動する。
+redirect url用。urlさえ分かれば良いので、serverは不要かもしれない  
+今回はVisual Studio CodeのLive Serverを使用した。  
+- VSC左側のExtensions tabから"Live Server"を検索＆install。  
+  VSC右下の"Go Live"をclickし、server起動する(port 5500)。  
 
 ## 接続確認
 fitbitから自身のデータを取得するところまで確認する。
